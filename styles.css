@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    height: 40vh;
+    display: grid;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 200px auto;
+    border-radius: 5px;
+    color: #333;
+} 
+
+.link_box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    width: 60px;
+}
+
+.link{
+    background-color: #dedede;
+    display: flex;
+    flex-direction: row;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.link:nth-child(1){
+    background-color: #aaa;
+}
+
+.title{
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.master-card {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.check{
+    width: 25px;
+}
+
+.master-card p{
+    margin-right: 130px;
+}
+
+img {
+    width: 50px;
+    margin-right: 30px;
+}
+
+.line{
+    display: inline-block;
+    width: 350px;
+    height: 2px;
+    background-color: #e2e2e2;
+}
+
+.text{
+    color: #aaa;
+}
+
+.btn {
+    display: flex;
+    background-color: #598bdd;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 350px;
+    border-radius: 0 0 5px 5px;
+}
+
+.btn img{
+    width: 15px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
